@@ -1,0 +1,24 @@
+@font-face {
+    font-family: IRANSans;
+  
+         
+            src: url(fonts/IRANSans/IRANSans.ttf);
+        
+    font-weight: normal;
+    font-style: normal;
+  }
+
+:root {
+    --dark: #001219;
+    --main-white: #f0f8ff;
+    --white: #ffffff;
+    --main-red: #d90429;
+}
+
+body {
+    font-size:IRANSans;
+   direction: rtl;
+}
+a{
+    text-decoration-line: none;
+}

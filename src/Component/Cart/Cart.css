@@ -1,0 +1,28 @@
+.bag-sidebar{
+ position: fixed;
+ top: 0;
+ right: -200px;
+ width: 400px;
+ height: 100vh;
+ overflow-y: auto;
+ padding: 20px;
+ z-index: 999;
+ transition: .5s ease;
+ visibility: hidden;
+ opacity: 0;
+ background-color: var(--white);
+}
+.bag-sidebar.active{
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.bag-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.close-icon{
+    cursor: pointer;
+}
